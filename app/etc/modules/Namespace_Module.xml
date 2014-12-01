@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Namespace_Module><!-- need to be changed -->
+        <active>true</active>
+        <codePool>local</codePool>
+        </Namespace_Module><!-- need to be changed -->
+    </modules>
+</config>

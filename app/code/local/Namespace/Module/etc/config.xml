@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Namespace_Module><!-- need to be changed -->
+            <version>0.0.1</version>
+        </Namespace_Module><!-- need to be changed -->
+    </modules>
+    <global>
+        <blocks>
+            <module><!-- change by module name -->
+                <class>Namespace_Module_Block</class><!-- need to be changed -->
+            </module><!-- change by module name -->
+        </blocks>        
+        <helpers>
+            <module><!-- change by module name -->
+                <class>Namespace_Module_Helper</class><!-- need to be changed -->
+            </module><!-- change by module name -->
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <module><!-- change by module name -->
+                <use>standard</use>
+                <args>
+                    <module>Namespace_Module</module><!-- need to be changed -->
+                    <frontName>module</frontName><!-- change by module name -->
+                </args>
+            </module><!-- change by module name -->
+        </routers>
+    </frontend>    
+</config>
